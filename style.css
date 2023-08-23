@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ 
+ body {
+     background: linear-gradient(63.18deg, #472F9F 0%, #0070E4 29.69%, #009FDF 50.52%, #00C592 73.96%, #4EE000 100%);
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Roboto', sans-serif;
+ }
+ .btn-primary {
+    background-color: #252525;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.btn-secondary {
+    background-color: #006da0;
+    color: rgb(255, 255, 255);
+}
+
+.btn-orange {
+    background-color: #a04000;
+    color: rgb(255, 255, 255);
+}
+
+.btn-purple {
+    background-color: #7b00ce;
+    color: rgb(255, 255, 255);
+}
+
+.btn-holder {
+    margin-top: 1em;
+}
+
+
+.btns button {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+}
+
+
+.btn  {
+    margin-top: 2px;
+    padding: 10px;
+    
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 200px;
+    font-size: .8rem;
+    border: none;
+}
+
+.todo-form,.todo-table {
+    background: rgba(255, 255, 255, 0.51);
+    border-radius: 10px;
+    padding: 1em;
+    position: relative;
+    width: clamp(450px,2000px, 850px);
+}
+.todo-table table {
+    border-spacing: 0px;
+    margin-top: 1em;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.todo-table thead tr {
+    background: #3D39AA;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    height: 40px;
+}
